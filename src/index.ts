@@ -3,8 +3,8 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import swaggerJsdoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
-import mailRoute from './src/routes/mailRoute';
-import { swaggerOptions } from './src/utils/swaggerOptions';
+import mailRoute from './routes/mailRoute';
+import { swaggerOptions } from './utils/swaggerOptions';
 
 dotenv.config();
 
